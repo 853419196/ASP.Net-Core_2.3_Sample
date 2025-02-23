@@ -8,9 +8,9 @@ namespace MyWebApp.Controllers
     public class HomeController : ControllerBase
     {
         [HttpGet("[action]/{id?}")]
-        public ActionResult<String> Index([FromRoute] String id)
+        public ActionResult<String> Index([FromRoute] String id = "World")
         {
-            return $"Hello, {id ?? "World"}!";
+            return $"Hello, {id}!";
         }
     }
 }
