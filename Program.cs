@@ -8,9 +8,7 @@ namespace MyWebApp
     {
         public static void Main(String[] args)
         {
-            var builder = WebHost
-                .CreateDefaultBuilder(args)
-                .UseStartup<Startup>();
+            var builder = WebHost.CreateDefaultBuilder<Startup>(args);
 
             var host = builder.Build();
 
