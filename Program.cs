@@ -1,18 +1,16 @@
 using System;
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
+using Startup = MyWebApp.Startup;
 
-namespace MyWebApp
+class Program
 {
-    class Program
+    static void Main(String[] args)
     {
-        static void Main(String[] args)
-        {
-            var builder = WebHost.CreateDefaultBuilder<Startup>(args);
+        var builder = WebHost.CreateDefaultBuilder<Startup>(args);
 
-            var host = builder.Build();
+        var host = builder.Build();
 
-            host.Run();
-        }
+        host.Run();
     }
 }
