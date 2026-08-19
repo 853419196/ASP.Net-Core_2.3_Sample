@@ -108,8 +108,6 @@
         <PackageReference Include="Microsoft.AspNetCore.SignalR.Common" Version="1.2.*" />
         <PackageReference Include="Microsoft.AspNetCore.SignalR.Core" Version="1.2.*" />
         <PackageReference Include="Microsoft.AspNetCore.SignalR.Protocols.Json" Version="1.2.*" />
-        <PackageReference Include="Microsoft.AspNetCore.SignalR.Protocols.MessagePack" Version="1.2.*" />
-        <PackageReference Include="Microsoft.AspNetCore.SignalR.Redis" Version="1.2.*" />
         <PackageReference Include="Microsoft.AspNetCore.SpaServices" Version="2.3.*" />
         <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="2.3.*" />
         <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.3.*" />
